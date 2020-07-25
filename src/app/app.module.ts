@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { SelectComponent } from './components/home/select/select.component';
+import { MinicardComponent } from './components/cards/minicard/minicard.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SelectComponent } from './components/home/select/select.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    SelectComponent
+    SelectComponent,
+    MinicardComponent
   ],
   imports: [
     BrowserModule
